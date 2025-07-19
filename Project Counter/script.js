@@ -13,9 +13,11 @@ increaseBtn.addEventListener("click", () => {
   countDisplay.textContent = count; // show new count
 });
 
-
 // When Decrease button is clicked
 decreaseBtn.addEventListener("click", () => {
+  if (count === 0) {
+    return;
+  }
   count--; // subtract 1
   countDisplay.textContent = count;
 });
