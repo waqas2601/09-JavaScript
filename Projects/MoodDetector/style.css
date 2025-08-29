@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 10px #ccc;
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+.output p {
+  font-size: 24px;
+  margin: 10px 0;
+}

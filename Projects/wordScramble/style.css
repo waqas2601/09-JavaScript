@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+  background: #eef;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.game {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  text-align: center;
+}
+
+input {
+  padding: 5px;
+  margin-top: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#message {
+  margin-top: 15px;
+  font-weight: bold;
+}

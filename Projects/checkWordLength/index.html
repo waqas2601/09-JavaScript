@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Length Checker</title>
+    <script src="script.js" defer></script>
+    <style>
+      body {
+        background-color: #1e1e1e;
+        color: white;
+        font-family: sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .container {
+        background: #333;
+        padding: 30px 40px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 0 15px black;
+      }
+      input {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        margin-bottom: 10px;
+        width: 200px;
+      }
+      button {
+        padding: 10px 20px;
+        background: #28a745;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+      }
+      .message {
+        margin-top: 15px;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Guess the Word Length!</h2>
+      <input type="text" id="wordInput" placeholder="Enter a word" />
+      <br />
+      <button id="checkBtn">Check</button>
+      <button id="resetBtn">Reset</button>
+      <p class="message" id="result"></p>
+    </div>
+  </body>
+</html>

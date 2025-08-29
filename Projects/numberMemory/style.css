@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background: #eef2f3;
+}
+
+#number {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+input {
+  padding: 5px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 7px 12px;
+  font-size: 1rem;
+  margin-top: 10px;
+}

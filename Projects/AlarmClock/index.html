@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alarm Clock</title>
+    <script src="script.js" defer></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>⏰ Alarm Clock</h1>
+      <div id="time" class="clock"></div>
+
+      <div class="alarm-set">
+        <select id="hours"></select>
+        :
+        <select id="minutes"></select>
+        <select id="ampm">
+          <option value="AM">AM</option>
+          <option value="PM">PM</option>
+        </select>
+        <button id="set-alarm">Set Alarm</button>
+        <button id="reset-alarm">Reset Alarm</button>
+      </div>
+
+      <p id="status"></p>
+    </div>
+
+    <audio id="alarm-sound" src="myAlarm.wav" loop></audio>
+  </body>
+</html>

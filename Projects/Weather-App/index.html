@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="script.js" defer></script>
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .weather-container {
+      background: white;
+      padding: 20px 30px;
+      border-radius: 12px;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      width: 300px;
+    }
+
+    .weather-container h1 {
+      margin-bottom: 20px;
+    }
+
+    input {
+      padding: 10px;
+      width: 70%;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    button {
+      padding: 10px 15px;
+      margin-left: 5px;
+      background: #0072ff;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background: #005bb5;
+    }
+
+    .weather-result {
+      margin-top: 20px;
+    }
+  </style>
+  <body>
+    <div class="weather-container">
+      <h1>🌤 Weather App</h1>
+      <input type="text" id="cityInput" placeholder="Enter city name" />
+      <button id="btn">Get Weather</button>
+
+      <div class="weather-result">
+        <h2 id="city"></h2>
+        <p id="temp"></p>
+        <p id="condition"></p>
+        <p id="humidity"></p>
+        <p id="wind"></p>
+      </div>
+    </div>
+  </body>
+</html>

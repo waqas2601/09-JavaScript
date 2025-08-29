@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <script src="script.js" defer></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  background: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.quiz-container {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+#question {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#answers button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+#answers button:hover {
+  background: #d4d4d4;
+}
+
+#nextBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #2e8b57;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#nextBtn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+  </style>
+  <body>
+    <div class="quiz-container">
+      <h1>Quiz App</h1>
+      <div id="question">Loading question...</div>
+      <div id="answers"></div>
+      <button id="nextBtn">Next</button>
+    </div>
+  </body>
+</html>
